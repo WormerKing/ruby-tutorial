@@ -22,7 +22,7 @@ end
 ````ruby
 class Sınıfİsmi 
 ````
-* ``<p>Burası ile sınıfımızı `class` anahtar kelimesini kullarak oluşturuyoruz</p>``
+* <p>Burası ile sınıfımızı ***class*** anahtar kelimesini kullarak oluşturuyoruz</p>
 
 ````ruby
 def initialize(name)
