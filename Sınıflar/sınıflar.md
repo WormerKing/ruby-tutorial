@@ -22,7 +22,7 @@ end
 ````ruby
 class Sınıfİsmi 
 ````
-* <p>Burası ile sınıfımızı ***class*** anahtar kelimesini kullarak oluşturuyoruz</p>
+* <p>Burası ile sınıfımızı **class** anahtar kelimesini kullarak oluşturuyoruz</p>
 
 ````ruby
 def initialize(name)
@@ -30,7 +30,7 @@ def initialize(name)
 end
 ````
 
-* <p>Burada ise özel bir metot olan `initialize` metodunu çağırıyoruz.<br />Bu metodun özel olmasının sebebi nesne ilk oluşturulurken bu metodun çağırılmasıdır.<br />Göründüğü üzere bu metot `name` adında bir değişken kabul etmiş ve bu değişkene birazdan değineceğimiz `örnek` değişkene atamıştır:`@name = name`</p>
+* <p>Burada ise özel bir metot olan **initialize** metodunu çağırıyoruz.<br />Bu metodun özel olmasının sebebi nesne ilk oluşturulurken bu metodun çağırılmasıdır.<br />Göründüğü üzere bu metot **name** adında bir değişken kabul etmiş ve bu değişkene birazdan değineceğimiz **örnek** değişkene atamıştır:**@name = name**</p>
 
 **Nesne oluşturma**
 * Sınıflardan nesne oluşturmak en az sınıf oluşturmak kadar kolaydır:
@@ -39,4 +39,4 @@ end
 nesne = Sınıfİsmi.new(name:"Ruby")
 ````
 
-<p>Göründüğü üzere sınıf üzerinde nesne oluşturmak için `new` anahtar sözcüğünü kullandık ve içine ilk çağırılan metot olan `initialize` metodu için parametre gönderdik.</p>
+<p>Göründüğü üzere sınıf üzerinde nesne oluşturmak için **new** anahtar sözcüğünü kullandık ve içine ilk çağırılan metot olan **initialize** metodu için parametre gönderdik.</p>
